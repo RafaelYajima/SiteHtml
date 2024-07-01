@@ -1,0 +1,153 @@
+/* styles.css */
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Estilo do cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #333;
+    color: #fff;
+    height: 20px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.banner {
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/*  Animações  */
+@keyframes animacao{
+    0% {box-shadow: 0px 0px 35px red;}
+    50% {box-shadow: 0px 0px 35px blue;}
+    100% {box-shadow: 0px 0px 35px red;}
+
+    0% {border-color: red;}
+    50% {border-color: blue;}
+    100% {border-color: red;}
+}
+
+/* Estilo do banner */
+
+.Sobre{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 800px;
+    font-size: 20px;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 0px 0px 35px red;
+    border-style: solid;
+    border-width: 6px 0px;
+    border-color: red;
+    border-radius: 150px;
+    animation-name: animacao;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+.imgSobre{
+    position: absolute;
+    right: 300px;
+    top: 850px;
+}
+
+.Mais{
+    margin-top: 50px;
+    margin-left: 800px;
+    margin-right: 140px;
+    font-size: 20px;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 0px 0px 35px red;
+    border-style: solid;
+    border-width: 6px 0px;
+    border-color: red;
+    border-radius: 150px;
+    animation-name: animacao;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+.imgMais{
+    position: absolute;
+    right: 1200px;
+    top: 1850px;
+}
+
+.spin-off{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 800px;
+    font-size: 20px;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 0px 0px 35px red;
+    border-style: solid;
+    border-width: 6px 0px;
+    border-color: red;
+    border-radius: 150px;
+    animation-name: animacao;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+.imgSpin-off{
+    position: absolute;
+    right: 300px;
+    top: 2900px;
+}
+
+.Contato{
+    font-size: 20px;
+    color: white;
+    background-color: #333; 
+    text-align: center;
+    padding: 1px;
+}
+
+/* Estilo do rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+    
