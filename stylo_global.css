@@ -129,14 +129,48 @@ nav ul li a:hover {
 }
 
 .Contato{
-    background-color: #333;
-    list-style-type: none;
-    margin: 0px;
-    padding: 10px;
-    display: flex;
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
+    padding: 12px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+div ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 60px;
+    margin: 0px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 80px;
+    animation-name: animacao;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+.itemContato{
+    margin-bottom: 10px;
+}
+.redes img{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.itemContato, .redes{
+    display: block;
+}
+.imgEsquerda{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 400px;
+}
+.imgDireita{
+    position: absolute;
+    width: 180px;
+    height: 260px;
+    right: 400px;
+    top: 3710px;
 }
 
 /* Estilo do rodapé */
